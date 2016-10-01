@@ -1,6 +1,6 @@
 # Linknest Collection JSON
 
-A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps. Making it easier to follow them from other apps even if you're not using the service. 💪
+A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps. Making it easier to follow them from other apps even if you're not using the service.
 
 #### ⚡ [Styleguides collection](https://linknest.cc/urban/styleguides/)
 
