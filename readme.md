@@ -1,14 +1,18 @@
-# Linknest Collection Feeds
+# Linknest Collection JSON
 
-A plugin giving the collections on [Linknest](https://linknest.cc) custom RSS feeds. Making it easier to follow them even if you're not using the service. 💪
+A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps. Making it easier to follow them from other apps even if you're not using the service. 💪
 
-![styleguides](https://cloud.githubusercontent.com/assets/307676/14327519/f2927f30-fc32-11e5-90b1-2288ae3ff194.jpg)
+Example:
 
-Select the collections feeds icon to the far right.
+#### Collection
+```
+https://linknest.cc/urban/tools/
+```
 
-![screenshot from Feedbin](https://cloud.githubusercontent.com/assets/307676/14327113/3c972e16-fc31-11e5-9eba-4b62c9af27b6.png)
-
-Follow collections in your favorite RSS feed reader. I'm a [Feedbin](http://feedbin.com) user.
+#### JSON
+```
+https://linknest.cc/urban/tools/json
+```
 
 #### ⚡ [Styleguides collection](https://linknest.cc/urban/styleguides/)
 
