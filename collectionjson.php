@@ -48,7 +48,7 @@ function collectionjson_urlbox( $url, $args) {
 // Check if /rssfeed is used
 function collectionjson_template_redirect() {
 	global $wp_query;
-	if ( ! isset( $wp_query->query_vars['rssfeed'] )  )
+	if ( ! isset( $wp_query->query_vars['json'] )  )
 		return;
 	collectionjson_output_feed();
 	exit;
@@ -86,7 +86,7 @@ function collectionjson_output_feed() {
 		    'link'  => esc_url( get_permalink($post->ID) ),
 		    'linkurl'  => esc_url( $url[0] ),
 		    'image'  => esc_url( $urlbox_image ),
-		    'title' => sanitize_title(get_the_title($post->ID)),
+		    'title' => html_entity_decode(get_the_title($post->ID)),
 		);
 
 	endforeach;
