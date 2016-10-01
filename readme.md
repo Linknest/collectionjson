@@ -19,7 +19,7 @@ For using urlbox.io, add ad ``.env`` file in the project root, see the example `
 
 ## Related
 
-### (Collection Feeds](https://github.com/Linknest/collectionfeeds)
+### [Collection Feeds](https://github.com/Linknest/collectionfeeds)
 A plugin giving the collections on Linknest custom RSS feeds. Making it easier to follow them even if you're not using the service.
 
 ## Linknest?
