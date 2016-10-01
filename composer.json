@@ -1,0 +1,28 @@
+{
+  "name": "linknest/collectionjson",
+  "type": "wordpress-plugin",
+  "license": "MIT",
+  "description": "A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps.",
+  "homepage": "https://github.com/linknest/collectionjson",
+  "authors": [
+    {
+      "name": "Urban Sanden",
+      "email": "hej@urre.me",
+      "homepage": "https://github.com/urre"
+    }
+  ],
+  "keywords": [
+    "wordpress",
+    "collection",
+    "bookmarks",
+    "linknest",
+    "feeds",
+    "json"
+  ],
+  "support": {
+    "issues": "https://github.com/linknest/collectionjson/issues"
+  },
+  "require": {
+      "vlucas/phpdotenv": "^2.2"
+  }
+}
