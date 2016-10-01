@@ -2,21 +2,9 @@
 
 A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps. Making it easier to follow them from other apps even if you're not using the service. 💪
 
-Example:
-
-#### Collection
-```
-https://linknest.cc/urban/tools/
-```
-
-#### JSON
-```
-https://linknest.cc/urban/tools/json
-```
-
 #### ⚡ [Styleguides collection](https://linknest.cc/urban/styleguides/)
 
-#### ✅ [Styleguides collection RSS feed](https://linknest.cc/urban/styleguides/rssfeed)
+#### ✅ [Styleguides collection JSON](https://linknest.cc/urban/styleguides/json)
 
 ## Notes and usage
 
@@ -28,6 +16,11 @@ Usage:
 2. Install the plugin in wp-admin
 
 For using urlbox.io, add ad ``.env`` file in the project root, see the example ``.env-example``.
+
+## Related
+
+### (Collection Feeds](https://github.com/Linknest/collectionfeeds)
+A plugin giving the collections on Linknest custom RSS feeds. Making it easier to follow them even if you're not using the service.
 
 ## Linknest?
 
