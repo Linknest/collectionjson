@@ -21,8 +21,5 @@
   ],
   "support": {
     "issues": "https://github.com/linknest/collectionjson/issues"
-  },
-  "require": {
-      "vlucas/phpdotenv": "^2.2"
   }
 }

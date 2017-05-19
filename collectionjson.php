@@ -8,11 +8,6 @@ Version: 0.1.0
 Author URI: https://urre.me
 */
 
-// Load dotenv
-require_once __DIR__ . '/vendor/autoload.php';
-$dotenv = new Dotenv\Dotenv(__DIR__);
-$dotenv->load();
-
 // Add dates for rss feed
 function collectionjson_rss_date( $timestamp = null ) {
 	$timestamp = ($timestamp==null) ? time() : $timestamp;
@@ -59,7 +54,7 @@ function collectionjson_output_feed() {
 		$link_data[] = array(
 		    'link'  => esc_url( get_permalink($post->ID) ),
 		    'linkurl'  => esc_url( $url[0] ),
-		    'image'  => esc_url( $screenshoturl[0] ),
+		    'image'  => esc_url( $screenshoturl ? $screenshoturl[0] : '' ),
 		    'title' => html_entity_decode(get_the_title($post->ID)),
 		);
 
