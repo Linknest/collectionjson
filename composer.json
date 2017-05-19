@@ -1,7 +1,7 @@
 {
   "name": "linknest/collectionjson",
   "type": "wordpress-plugin",
-  "license": "MIT",
+  "license": "GPL",
   "description": "A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps.",
   "homepage": "https://github.com/linknest/collectionjson",
   "authors": [

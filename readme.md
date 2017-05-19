@@ -15,8 +15,6 @@ Usage:
 1. ``composer install``
 2. Install the plugin in wp-admin
 
-For using urlbox.io, add ad ``.env`` file in the project root, see the example ``.env-example``.
-
 ## Related
 
 ### [Collection Feeds](https://github.com/Linknest/collectionfeeds)
