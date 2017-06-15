@@ -2,7 +2,7 @@
 /*
 Plugin Name: Linknest Collection JSON
 Description: A plugin making every collection on Linknest avaliable as JSON. Making it easy to fetch from other apps.
-Plugin URI: https://linknest.cc
+Plugin URI: https://linknest.com
 Author: Urban Sandén
 Version: 0.1.0
 Author URI: https://urre.me
